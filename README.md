@@ -101,6 +101,11 @@ Sources:
 - https://www.apple.com/
 - https://www.theverge.com/
 ```
+## Example Screen Shot
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a9bc9a7f-cac0-4b63-8a3f-788a256434ee" />
+<img width="1913" height="906" alt="image" src="https://github.com/user-attachments/assets/cf8791e5-8904-43e8-8e01-d9bab0755db0" />
+
 
 ## Dependencies Used
 
@@ -113,3 +118,4 @@ Sources:
 - Some websites block automated fetching; in those cases the agent falls back to the search snippet.
 - The final answer is constrained to use retrieved data and return source URLs.
 - The app is still a CLI demo; for a full production service, add request authentication, centralized logging, metrics, and persistent caching.
+
