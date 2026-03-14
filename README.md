@@ -99,6 +99,7 @@ The second query can resolve `it` from conversation context.
 
 ---
 
+
 ## Dependencies Used
 
 From `requirements.txt`:
@@ -200,13 +201,3 @@ From `requirements.txt`:
 ### Search/API errors
 - Check network connectivity.
 - Verify Tavily key validity and quota.
-
----
-
-## Interview Talking Points
-
-- Clear separation of concerns across config, models, services, utils, prompts, and agent orchestration.
-- Typed data contracts (`dataclass` + enums) for maintainability.
-- Streaming response UX in CLI.
-- Retrieval grounding with explicit source attribution.
-- Practical resiliency patterns: model fallback + quota fallback + ambiguity handling.
